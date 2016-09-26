@@ -22,4 +22,8 @@ class ArrayList
   def length
     @list.length
   end
+
+  def insert(index, element)
+    @list.insert(index, element)
+  end
 end

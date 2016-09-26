@@ -26,4 +26,8 @@ describe ArrayList do
   it "returns the number of items in list" do
     expect(list.length).to eq 3
   end
+
+  it "inserts element at position index of list" do
+    expect(list.insert(0, "my element")).to eq ["my element", nil, nil, nil]
+  end
 end
